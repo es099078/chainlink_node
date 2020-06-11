@@ -2,8 +2,8 @@
         #Defining access keys and region
 provider "aws" {
         region = "us-east-1"
-        access_key = "AKIATO5LCGHTBWTQNFXF"
-        secret_key = "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"
+        access_key = ""
+        secret_key = ""
 }
 
 
