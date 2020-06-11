@@ -1,0 +1,1 @@
+sudo ansible-playbook -i hosts playbook.yml --user=ubuntu --private-key=/home/ubuntu/.ssh/sravya 
