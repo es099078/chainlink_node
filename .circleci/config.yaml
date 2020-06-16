@@ -1,9 +1,7 @@
 version: 2
 
-jobs:
-    steps:
-      - checkout
-      - setup_remote_docker
-      - run:
-          description: sh run-playbook.sh
-          command: sudo ansible-playbook -i hosts playbook.yml --user=ubuntu --private-key=/home/ubuntu/.ssh/sravya 
+deployment:
+ prod:
+  branch: master
+  commands:
+     - sh run-playbook.sh 
